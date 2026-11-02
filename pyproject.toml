@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "craftbeece-kernelopt_jd168"
+name = "craftbeece-long_context_positional_extrapolation_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别AI 芯片算子优化工程师·长上下文的位置编码外推的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://craftbeece.github.io"
-Repository = "https://github.com/craftbeece/kernelopt_jd168"
-Issues = "https://github.com/craftbeece/kernelopt_jd168/issues"
+Repository = "https://github.com/craftbeece/long_context_positional_extrapolation_signature_match"
+Issues = "https://github.com/craftbeece/long_context_positional_extrapolation_signature_match/issues"
 
 [project.scripts]
-kernelopt_jd168 = "kernelopt_jd168:main"
+long_context_positional_extrapolation_signature_match = "long_context_positional_extrapolation_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd168"]
+py-modules = ["long_context_positional_extrapolation_signature_match"]
